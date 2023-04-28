@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.Platform.Common", "V1.Platform.Common\V1.Platform.Common.csproj", "{52AAEA4E-A4C2-4953-A815-7BA48EFB1016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.Platform.Common.Api", "V1.Platform.Common.Api\V1.Platform.Common.Api.csproj", "{96C547FB-5415-4A46-A40C-686C36801B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.Platform.Common.Dao", "V1.Platform.Common.Dao\V1.Platform.Common.Dao.csproj", "{60602EDC-ECB4-48CF-9BDE-46B9A73B21CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.Platform.Common.Services", "V1.Platform.Common.Services\V1.Platform.Common.Services.csproj", "{C9F9BD44-1AB4-40BC-B213-81113DBAAEED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.AccountService.Api.Client", "V1.AccountService.Api.Client\V1.AccountService.Api.Client.csproj", "{8F6BD144-EE1B-48E7-BE7B-2EF95666FA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Api", "V1.ExportDataService.Api\V1.ExportDataService.Api.csproj", "{1E19C1F8-4701-44D7-ACFF-6D4728C229FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Common", "V1.ExportDataService.Common\V1.ExportDataService.Common.csproj", "{52DF2951-A2E6-4500-87DA-D81A409080C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Dao", "V1.ExportDataService.Dao\V1.ExportDataService.Dao.csproj", "{C17289D5-069D-4903-BA0D-ACFB7D587145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Dao.Impl", "V1.ExportDataService.Dao.Impl\V1.ExportDataService.Dao.Impl.csproj", "{220BEE61-F67A-488E-9559-DA46B33C05C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Dao.Impl.MongoDb", "V1.ExportDataService.Dao.Impl.MongoDb\V1.ExportDataService.Dao.Impl.MongoDb.csproj", "{989F1A47-DCB5-4468-A474-E20C086EFF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Dao.Impl.Rdbms", "V1.ExportDataService.Dao.Impl.Rdbms\V1.ExportDataService.Dao.Impl.Rdbms.csproj", "{6F8AC01F-D362-4C24-8404-ACD20932818B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Dao.Impl.AwsS3", "V1.ExportDataService.Dao.Impl.AwsS3\V1.ExportDataService.Dao.Impl.AwsS3.csproj", "{A037F0A2-BA30-44A5-B8EC-F6E17928A4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.Services", "V1.ExportDataService.Services\V1.ExportDataService.Services.csproj", "{5337BBCB-60E7-4ABB-BBE8-91DDB3DF7088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V1.ExportDataService.DataProviders", "V1.ExportDataService.DataProviders\V1.ExportDataService.DataProviders.csproj", "{29ADC930-14CE-40C7-8587-7CE67E35FB72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52AAEA4E-A4C2-4953-A815-7BA48EFB1016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AAEA4E-A4C2-4953-A815-7BA48EFB1016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AAEA4E-A4C2-4953-A815-7BA48EFB1016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AAEA4E-A4C2-4953-A815-7BA48EFB1016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C547FB-5415-4A46-A40C-686C36801B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C547FB-5415-4A46-A40C-686C36801B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C547FB-5415-4A46-A40C-686C36801B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C547FB-5415-4A46-A40C-686C36801B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60602EDC-ECB4-48CF-9BDE-46B9A73B21CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60602EDC-ECB4-48CF-9BDE-46B9A73B21CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60602EDC-ECB4-48CF-9BDE-46B9A73B21CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60602EDC-ECB4-48CF-9BDE-46B9A73B21CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F9BD44-1AB4-40BC-B213-81113DBAAEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F9BD44-1AB4-40BC-B213-81113DBAAEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F9BD44-1AB4-40BC-B213-81113DBAAEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F9BD44-1AB4-40BC-B213-81113DBAAEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6BD144-EE1B-48E7-BE7B-2EF95666FA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6BD144-EE1B-48E7-BE7B-2EF95666FA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6BD144-EE1B-48E7-BE7B-2EF95666FA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6BD144-EE1B-48E7-BE7B-2EF95666FA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E19C1F8-4701-44D7-ACFF-6D4728C229FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E19C1F8-4701-44D7-ACFF-6D4728C229FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E19C1F8-4701-44D7-ACFF-6D4728C229FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E19C1F8-4701-44D7-ACFF-6D4728C229FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DF2951-A2E6-4500-87DA-D81A409080C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DF2951-A2E6-4500-87DA-D81A409080C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DF2951-A2E6-4500-87DA-D81A409080C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DF2951-A2E6-4500-87DA-D81A409080C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17289D5-069D-4903-BA0D-ACFB7D587145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17289D5-069D-4903-BA0D-ACFB7D587145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17289D5-069D-4903-BA0D-ACFB7D587145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17289D5-069D-4903-BA0D-ACFB7D587145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220BEE61-F67A-488E-9559-DA46B33C05C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220BEE61-F67A-488E-9559-DA46B33C05C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220BEE61-F67A-488E-9559-DA46B33C05C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220BEE61-F67A-488E-9559-DA46B33C05C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989F1A47-DCB5-4468-A474-E20C086EFF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989F1A47-DCB5-4468-A474-E20C086EFF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989F1A47-DCB5-4468-A474-E20C086EFF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989F1A47-DCB5-4468-A474-E20C086EFF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8AC01F-D362-4C24-8404-ACD20932818B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8AC01F-D362-4C24-8404-ACD20932818B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8AC01F-D362-4C24-8404-ACD20932818B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8AC01F-D362-4C24-8404-ACD20932818B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A037F0A2-BA30-44A5-B8EC-F6E17928A4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A037F0A2-BA30-44A5-B8EC-F6E17928A4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A037F0A2-BA30-44A5-B8EC-F6E17928A4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A037F0A2-BA30-44A5-B8EC-F6E17928A4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5337BBCB-60E7-4ABB-BBE8-91DDB3DF7088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5337BBCB-60E7-4ABB-BBE8-91DDB3DF7088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5337BBCB-60E7-4ABB-BBE8-91DDB3DF7088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5337BBCB-60E7-4ABB-BBE8-91DDB3DF7088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29ADC930-14CE-40C7-8587-7CE67E35FB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29ADC930-14CE-40C7-8587-7CE67E35FB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29ADC930-14CE-40C7-8587-7CE67E35FB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29ADC930-14CE-40C7-8587-7CE67E35FB72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

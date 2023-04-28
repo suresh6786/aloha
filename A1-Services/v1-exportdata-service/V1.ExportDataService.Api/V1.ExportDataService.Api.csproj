@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\V1.Platform.Common\V1.Platform.Common.csproj" />
+    <ProjectReference Include="..\V1.Platform.Common.Api\V1.Platform.Common.Api.csproj" />
+    <ProjectReference Include="..\V1.Platform.Common.Dao\V1.Platform.Common.Dao.csproj" />
+    <ProjectReference Include="..\V1.Platform.Common.Services\V1.Platform.Common.Services.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Common\V1.ExportDataService.Common.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Dao\V1.ExportDataService.Dao.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Dao.Impl\V1.ExportDataService.Dao.Impl.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Dao.Impl.MongoDb\V1.ExportDataService.Dao.Impl.MongoDb.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Dao.Impl.Rdbms\V1.ExportDataService.Dao.Impl.Rdbms.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Dao.Impl.AwsS3\V1.ExportDataService.Dao.Impl.AwsS3.csproj" />
+    <ProjectReference Include="..\V1.ExportDataService.Services\V1.ExportDataService.Services.csproj" />
+  </ItemGroup>
+
+</Project>
